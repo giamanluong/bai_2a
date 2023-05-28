@@ -1,0 +1,250 @@
+body{
+  background-image: url(../images/head-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 95vh;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.container .logo{
+  position: relative;
+  left: 320px;
+}
+:root{
+  color: #5ac21da6;
+}
+.container .hotline{
+  background-color: rgb(18, 148, 18);
+  width: 21%;
+  height: 65px;
+  position: relative;
+  left: 500px;
+  top: 35px;
+  color: beige;
+  font-size: 12px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form{
+  background-color: rgb(6, 126, 6);
+  width: 20%;
+  height: 340px;
+  position: relative;
+  left: 320px;
+  top: 90px;
+  border: 6px solid burlywood;
+}
+.form h1{
+  color: rgb(241, 237, 237);
+  font-size: 29px;
+  text-align: center;
+  text-shadow: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  position: relative;
+  bottom: 10px;
+}
+.form ul{
+  list-style: none;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  position: relative;
+  bottom: 15px;
+  right: 15px;
+  line-height: 20px;
+  font-size: 15px;
+}
+.form input{
+  border: none;
+  position: relative;
+  bottom: 20px;
+  left: 32px;
+}
+::placeholder{
+  color: white;
+}
+.form h2{
+  color: rgb(122, 120, 120);
+  font-weight: normal;
+  position: relative;
+  left: 32px;
+  bottom: 50px;
+}
+.form .dk2 input{
+  position: relative;
+  bottom: 70px;
+}
+.form h3{
+  color: rgb(122, 120, 120) ;
+  position: relative;
+  bottom: 100px;
+  left: 32px;
+}
+.form .dk3 input{
+  position: relative;
+  bottom: 110px;
+}
+.form h4{
+  color: rgb(122, 120, 120) ;
+  position: relative;
+  bottom: 140px;
+  left: 32px;
+}
+.form .dk4 button{
+  border: none;
+  cursor: pointer;
+  position: relative;
+  bottom: 150px;
+  left: 80px;
+  height: 30px;
+  color: rgb(249, 251, 253);
+}
+.middle{
+  display: flex;
+  flex-direction: row;
+}
+.middle .img1{
+  position: relative;
+  left: 320px;
+  top: 200px;
+  border: 2px dashed green;
+  border-radius: 5% 5% 5% 5%;
+}
+.middle h1{
+  position: relative;
+  top: 180px;
+  left: 370px;
+  font-size: 17px;
+  color: rgb(4, 109, 4);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.middlea p1{
+  font-size:16px;
+  color: black;
+  position: relative;
+  left: 730px;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 1px;
+}
+.middleb h1{
+  font-size: 15px;
+  color: rgb(4, 109, 4);
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 30px;
+  left: 320px;
+}
+.middleb .img2{
+  border: 2px dashed green;
+  border-radius: 5% 5% 5% 5%;
+  position: relative;
+  left: 730px;
+}
+.middlec p{
+  color: black;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  bottom: 210px;
+  left: 320px;
+}
+.under{
+  background-color: rgb(60, 158, 60);
+  width: 100%;
+  height: 250px;
+  position: relative;
+  bottom: 120px;
+}
+.under .img3{
+  position: relative;
+  left: 840px;
+  top: 30px;
+}
+.under p1{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: relative;
+  bottom: 140px;
+  left: 62px;
+}
+.under p2{
+  color: white;
+  position: relative;
+  right: 270px;
+  bottom: 130px;
+}
+.under p{
+  color: white;
+  position: relative;
+  left: 310px;
+  bottom: 130px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+.end{
+  background-color: rgb(181, 187, 100);
+  width: 100%;
+  height: 200px;
+  position: relative;
+  bottom: 140px;
+}
+.end p{
+  color: rgb(9, 121, 9);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+.rg1{
+  position: relative;
+  bottom: 260px;
+  left: 340px;
+}
+.rg1 input{
+  border: none;
+  width: 20%;
+  height: 20px;
+}
+.rg1 ::placeholder{
+  color: black;
+}
+.rg2 ::placeholder{
+  color: black;
+}
+.rg2 input{
+  border: none;
+  width: 20%;
+  height: 20px;
+}
+.rg2{
+  position: relative;
+  bottom: 282px;
+  left: 680px;
+}
+.rg3{
+  position: relative;
+  bottom: 265px;
+  left: 340px;
+}
+.rg3 input{
+  border: none;
+  width: 20%;
+  height: 20px;
+}
+.rg3 ::placeholder{
+  color: black;
+}
+.rg4 button{
+  color: aliceblue;
+  cursor: pointer;
+  position: relative;
+  bottom: 285px;
+  left: 680px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 20.5%;
+}
